@@ -67,7 +67,7 @@ main {
 
 #person-img {
     width: 180px;
-    height: auto;
+    height: 180px;
     border-radius: 50%;
     margin-bottom: 10px;
 }
