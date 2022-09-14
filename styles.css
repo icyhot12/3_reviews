@@ -38,7 +38,8 @@ main {
     justify-content: center;
     align-items: center;
     height: auto;
-    width: 85vw;
+    min-width: 60vw;
+    width: 60vw;
     gap: 50px;
 }
 
@@ -76,4 +77,14 @@ main {
 
 #info {
     text-align: center;
+}
+
+button {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.btn {
+    color: lightskyblue;
 }
