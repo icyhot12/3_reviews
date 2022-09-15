@@ -65,10 +65,16 @@ main {
     text-transform: capitalize;
 }
 
-#person-img {
-    width: 180px;
-    height: 180px;
+.img-container {
+    /* display: inline-block; */
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
+    overflow: hidden;
+}
+
+#person-img {
+    width: 100%;
     margin-bottom: 10px;
 }
 
