@@ -66,10 +66,11 @@ main {
 }
 
 #person-img {
-    width: 180px;
     height: 180px;
-    border-radius: 50%;
+    width: 180px;
     margin-bottom: 10px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .underline {
